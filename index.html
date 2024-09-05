@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+
+    <title>Change Content</title>
+    <style>
+        button{
+            background-color: chartreuse;
+            padding: 20px 20px;
+            font-size: 20px;
+            border-radius: 20px;
+            margin-left: 550px;
+            margin-top: 50px;
+
+        }
+        button:hover{
+            cursor: pointer;
+            color: rgb(240, 139, 7);
+            background-color: rgb(79, 104, 104);
+           
+        }
+    </style>
+
+
+</head>
+<body>
+    <p id="content">This is  the original content.</p>
+    <button onclick="CHANGECONTENT()">CHANGECONTENT</button>
+    <script>
+        function CHANGECONTENT(){
+            document.getElementById("content").innerHTML="Hello Every One";
+        }
+        </script>
+
+    
+</body>
+</html>
